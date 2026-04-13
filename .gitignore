@@ -1,0 +1,10 @@
+*
+
+!/.gitignore
+
+!/cpp-qt-style/
+!/cpp-qt-style/*
+
+!/requirements-refiner/
+!/requirements-refiner/*
+ 
