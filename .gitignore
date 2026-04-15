@@ -20,3 +20,6 @@
 !/test-case-writer/
 !/test-case-writer/*
 
+!/backend-status-code-standard/
+!/backend-status-code-standard/*
+
