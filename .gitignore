@@ -37,5 +37,7 @@
  
 !/learning-docs-builder/
 !/learning-docs-builder/*
+!/learning-docs-builder/agents/*
+!/learning-docs-builder/references/*
 
 

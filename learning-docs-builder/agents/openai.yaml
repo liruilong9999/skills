@@ -1,0 +1,4 @@
+interface:
+  display_name: "Learning Docs Builder"
+  short_description: "Generate progressive study docs from beginner to mastery"
+  default_prompt: "Create a complete learning path under the current project's docs folder"
