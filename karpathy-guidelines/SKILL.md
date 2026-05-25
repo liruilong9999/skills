@@ -8,8 +8,6 @@ license: MIT
 
 ## 目标
 
-将 Andrej Karpathy 提出的常见 LLM（大语言模型）编码误区，转化为适合 Codex 的执行规则。
-
 这个 skill 的重点不是“生成更多内容”，而是约束 Codex：
 
 - 先想清楚，再动手
