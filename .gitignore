@@ -34,10 +34,11 @@
  
 !/skill-creator-pro/
 !/skill-creator-pro/*
- 
+
+!/karpathy-guidelines/
+!/karpathy-guidelines/*
+
 !/learning-docs-builder/
 !/learning-docs-builder/*
 !/learning-docs-builder/agents/*
 !/learning-docs-builder/references/*
-
-
