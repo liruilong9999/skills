@@ -1,0 +1,4 @@
+interface:
+  display_name: "Python开发规范"
+  short_description: "通用Python项目结构分层测试配置与交付开发规范指南"
+  default_prompt: "Use $python-dev-standards to design or review a general Python project structure, layering, tests, and delivery conventions."
