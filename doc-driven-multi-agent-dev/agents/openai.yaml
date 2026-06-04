@@ -1,0 +1,4 @@
+interface:
+  display_name: "文档驱动并发开发"
+  short_description: "按需求与设计文档拆分多智能体并发开发与集成验收流程"
+  default_prompt: "Use $doc-driven-multi-agent-dev to split work from project docs, assign subagents, confirm boundaries, and integrate concurrent implementation safely."
