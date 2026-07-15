@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Rust 编码规范"
+  short_description: "统一 Rust 代码风格、分层、错误处理、测试与依赖方向。"
+  default_prompt: "使用 $rust-coding-standards 设计、编写或评审 Rust 代码，遵循小改动、清晰边界、最少辅助抽象和标准 Cargo 质量门禁。"

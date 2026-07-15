@@ -14,14 +14,19 @@ description: enforce Qt C++ coding style, UTF-8 encoding rules, Chinese document
 ## 注释规范
 
 - 必须使用 Doxygen 风格
-- 必须使用中文
-- 所有 public 接口必须有注释
+- 必须使用中文（参数等专业术语可用英文）
+- 所有 public/private/protected 接口必须有注释
+- 所有类必须注释
+- 所有代码文件必须有注释，如果涉及流程、调用流程、复杂逻辑，需要写清楚
+- 所有变量（全局/局部/成员变量等）必须有注释（注释为 ///<风格）
+- 分支要有注释，如switch case，if else等（//方式注释）
+- 函数调用要有注释（//方式注释，说明功能，如  //获取xx，计算xx）
 
 ---
 
 ## 编码规范
 
-- 所有源码必须使用 UTF-8（推荐无 BOM）
+- 所有源码必须使用 UTF-8（无 BOM）
 - 禁止 GBK / ANSI
 - 必须保证编译器按 UTF-8 解析源码
 
@@ -36,7 +41,6 @@ GCC / Clang：
 ## QString 使用规则
 
 - 默认使用 QString
-- 若编译环境不保证 UTF-8，可使用 QString
 - 同一模块必须统一策略
 - 禁止混用
 
@@ -62,6 +66,7 @@ GCC / Clang：
 - 指针成员：m_p大驼峰
 - 函数：小驼峰，动词开头
 - 类名：大驼峰
+- 文件夹/文件名：全小写
 
 ---
 
@@ -99,6 +104,7 @@ GCC / Clang：
 ### 常量比较规则
 
 - 常量必须写在左侧进行比较
+- nullptr要判断，放在==左侧
 
 ---
 
