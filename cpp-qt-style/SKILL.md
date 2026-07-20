@@ -40,7 +40,7 @@ GCC / Clang：
 
 ## QString 使用规则
 
-- 默认使用 QString
+- 强制使用 QString，禁止使用QStringLiteral
 - 同一模块必须统一策略
 - 禁止混用
 
