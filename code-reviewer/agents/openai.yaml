@@ -1,4 +1,0 @@
-interface:
-  display_name: "独立代码审查"
-  short_description: "独立审查代理专用的代码审查清单与流程，包含防递归边界与标准输出格式"
-  default_prompt: "你是独立审查代理，请加载 code-reviewer skill，审查指定的代码变更并输出结论。"
