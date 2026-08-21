@@ -1,6 +1,6 @@
 ---
 name: typescript-agent-engineer
-description: 用于 AI Agent、MCP、Workflow、LLM Runtime 等 TypeScript 项目的工程规范。当用户需要些前端代码时触发该skill
+description: 用于 TypeScript 前端、Node.js、全栈项目（含 MCP、Workflow、LLM Runtime 等场景）的工程规范：严格类型、schema 校验、流式处理、组件复用、生产级代码。当用户需要编写、修改或审查 TypeScript 代码时使用。
 ---
 
 # 总体原则
@@ -99,6 +99,16 @@ utils.ts
 helpers.ts
 common.ts
 ```
+
+---
+
+# 组件复用规则
+
+能复用的内容必须拆分组件：
+
+* 公共组件放在全局 `components` 目录
+* 页面组件放在页面同级目录下创建的 `components` 目录
+* 公共逻辑文件拆分为 `use` 开头的函数（如 `useXxx`）
 
 ---
 
